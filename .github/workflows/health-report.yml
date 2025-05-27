@@ -3,7 +3,7 @@ name: 'zhr-action Demo'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 11 * * *'
+    - cron: '30 11 * * *'
 
 jobs:
   main:
